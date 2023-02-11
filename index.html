@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>대한초음파의학회</title>
+
+    <!-- favicon -->
+
+    <link rel="shortcut icon" href="./source/favicon/favicon.ico" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/default.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+
+    <!-- js -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./slick-1.8.1/slick/slick.js"></script>
+    <script src="./js/app.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-wrap">
+        <div class="header-top">
+          <div class="header-logo">
+            <img src="./source/logo.png" alt="logo" class="logo-img" />
+            <div class="logo-text">
+              <img
+                src="./source/logo-title.png"
+                alt="title-logo"
+                class="lt-img"
+              />
+              <img
+                src="./source/logo-sub.png"
+                alt="subtitle-logo"
+                class="lt-img"
+              />
+            </div>
+          </div>
+          <div class="header-top-menu">
+            <ul>
+              <li>
+                <a>Home</a>
+              </li>
+              <li>
+                <a>Login</a>
+              </li>
+              <li>
+                <a>Join</a>
+              </li>
+              <li>
+                <a>English</a>
+              </li>
+            </ul>
+            <div class="mmenu-btn">
+              <img src="./source/icon/hamburger.png" alt="menu-btn" />
+            </div>
+          </div>
+        </div>
+
+        <div class="mnav-wrap">
+          <div class="mnav-bg"></div>
+          <div class="mnav">
+            <div class="mnav-head">
+              <div class="mhead-top">
+                <div class="mhead-top-logo">
+                  <img
+                    src="./source/m_menu_logo.png"
+                    alt="logo"
+                    class="mlogo"
+                  />
+                  <div class="logo-text">
+                    <img
+                      src="./source/logo-mtitle.png"
+                      alt="logo-title"
+                      class="mlogo-title"
+                    />
+                    <img
+                      src="./source/long-msub.png"
+                      alt="logo-subtitle"
+                      class="mlogo-title"
+                    />
+                  </div>
+                </div>
+                <div class="mhead-top-close">
+                  <img src="./source/icon/close-icon.png" alt="close-icon" />
+                </div>
+              </div>
+              <div class="mhead-btm">
+                <div class="btm-btn">
+                  <a>로그인</a>
+                </div>
+                <div class="btm-btn">
+                  <a>회원가입</a>
+                </div>
+                <div class="btm-btn">
+                  <a>English</a>
+                </div>
+              </div>
+            </div>
+            <div class="mnav-gnb">
+              <ul class="mgnb">
+                <li class="mgnb-list">
+                  <div class="mgnb-title">
+                    <a>학회소개</a>
+                    <img
+                      src="./source/icon/vertical-arrow.png"
+                      alt="arrow-icon"
+                    />
+                  </div>
+                  <ul class="mlnb">
+                    <li>
+                      <a>인사말</a>
+                    </li>
+                    <li>
+                      <a>연혁</a>
+                    </li>
+                    <li>
+                      <a>회칙</a>
+                    </li>
+                    <li>
+                      <a>임직원 및 위원회</a>
+                    </li>
+                    <li>
+                      <a>사무국 안내</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="mgnb-list">
+                  <div class="mgnb-title">
+                    <a>학회지</a>
+                  </div>
+                </li>
+                <li class="mgnb-list">
+                  <div class="mgnb-title">
+                    <a>행사일정</a>
+                    <img
+                      src="./source/icon/vertical-arrow.png"
+                      alt="arrow-icon"
+                    />
+                  </div>
+                  <ul class="mlnb">
+                    <li>
+                      <a>정기학술대회</a>
+                    </li>
+                    <li>
+                      <a>My Unforgettable Ultrasound 수상작</a>
+                    </li>
+                    <li>
+                      <a>정기연수교육</a>
+                    </li>
+                    <li>
+                      <a>정기 Hands-on 교육</a>
+                    </li>
+                    <li>
+                      <a>이사회 및 중요행사</a>
+                    </li>
+                    <li>
+                      <a>국제학회 일정</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="mgnb-list">
+                  <div class="mgnb-title">
+                    <a>회원공간</a>
+                    <img
+                      src="./source/icon/vertical-arrow.png"
+                      alt="arrow-icon"
+                    />
+                  </div>
+                  <ul class="mlnb">
+                    <li>
+                      <a>공지사항</a>
+                    </li>
+                    <li>
+                      <a>뉴스레터</a>
+                    </li>
+                    <li>
+                      <a>게시판</a>
+                    </li>
+                    <li>
+                      <a>자료실</a>
+                    </li>
+                    <li>
+                      <a>증례토론</a>
+                    </li>
+                    <li>
+                      <a>VODs</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="mgnb-list">
+                  <div class="mgnb-title">
+                    <a>관련사이트</a>
+                  </div>
+                </li>
+                <li class="mgnb-list">
+                  <div class="mgnb-title">
+                    <a>교육자료</a>
+                    <img
+                      src="./source/icon/vertical-arrow.png"
+                      alt="arrow-icon"
+                    />
+                  </div>
+                  <ul class="mlnb">
+                    <li>
+                      <a>일반인을 위한 초음파</a>
+                    </li>
+                    <li>
+                      <a>연수교육자료</a>
+                    </li>
+                    <li>
+                      <a>KAFE 자료</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gnb-wrap">
+        <div class="gnb">
+          <nav>
+            <ul class="gnb-wrap">
+              <li>
+                <a class="gnb-txt">
+                  <p>학회소개</p>
+                </a>
+                <ul class="lnb">
+                  <li>
+                    <a>인사말</a>
+                  </li>
+                  <li>
+                    <a>연혁</a>
+                  </li>
+                  <li>
+                    <a>회칙</a>
+                  </li>
+                  <li>
+                    <a>임원진 및 위원회</a>
+                  </li>
+                  <li>
+                    <a>사무국 안내</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="gnb-txt">
+                  <p>학회지</p>
+                </a>
+                <ul class="lnb">
+                  <li>
+                    <a>학회지</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="gnb-txt">
+                  <p>행사일정</p>
+                </a>
+                <ul class="lnb">
+                  <li>
+                    <a>정기학술대회</a>
+                  </li>
+                  <li>
+                    <a>
+                      My Unforgettable<br />
+                      Ultrasound 수상작
+                    </a>
+                  </li>
+                  <li>
+                    <a>정기연수교육</a>
+                  </li>
+                  <li>
+                    <a>정기 Hands-on 교육</a>
+                  </li>
+                  <li>
+                    <a>이사회 및 중요행사</a>
+                  </li>
+                  <li>
+                    <a>국제학회 일정</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="gnb-txt">
+                  <p>회원공간</p>
+                </a>
+                <ul class="lnb">
+                  <li>
+                    <a>공지사항</a>
+                  </li>
+                  <li>
+                    <a>뉴스레터</a>
+                  </li>
+                  <li>
+                    <a>게시판</a>
+                  </li>
+                  <li>
+                    <a>자료실</a>
+                  </li>
+                  <li>
+                    <a>증례토론</a>
+                  </li>
+                  <li>
+                    <a>VODs</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="gnb-txt">
+                  <p>관련사이트</p>
+                </a>
+                <ul class="lnb">
+                  <li>
+                    <a>관련사이트</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="gnb-txt">
+                  <p>교육자료</p>
+                </a>
+                <ul class="lnb">
+                  <li>
+                    <a>일반인을 위한 초음파</a>
+                  </li>
+                  <li>
+                    <a>연수교육 자료</a>
+                  </li>
+                  <li>
+                    <a>KAFE 자료</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="main-top">
+        <div class="main-box-wrap info-wrap">
+          <div class="main-box first-info">
+            <p class="info-title">대한초음파의학회는</p>
+            <p class="info-content">
+              초음파 의학의 연구발전과 회원상호간의 친목과 교류를 통하여<br />
+              초음파의학분야의 발전에 이바지 합니다.
+            </p>
+          </div>
+          <div class="main-box second-info">
+            <p class="info-title">대한초음파의학회는</p>
+            <p class="info-content">
+              초음파 의학의 연구발전과 회원상호간의 친목과 교류를 통하여<br />
+              초음파의학분야의 발전에 이바지 합니다.
+            </p>
+          </div>
+          <div class="main-box third-info">
+            <p class="info-title">대한초음파의학회는</p>
+            <p class="info-content">
+              초음파 의학의 연구발전과 회원상호간의 친목과 교류를 통하여<br />
+              초음파의학분야의 발전에 이바지 합니다.
+            </p>
+          </div>
+        </div>
+        <div class="main-box-wrap notice-wrap">
+          <div class="main-box notice-box">
+            <div class="box-head">
+              <h2>공지사항</h2>
+              <a>
+                <img src="./source/icon/plus.png" alt="plus" />
+              </a>
+            </div>
+            <div class="noti-list">
+              <ul>
+                <li>
+                  <a>
+                    대한초음파의학회 13차 인증의 신규 지원접수를 마감합니다.
+                  </a>
+                  <p class="date">2018-03-29</p>
+                </li>
+                <li>
+                  <a> KSUM International Fellow Tutor 교수님 모집 </a>
+                  <p class="date">2018-07-06</p>
+                </li>
+                <li>
+                  <a> "상복부 초음파 보험적용 범위 전면확대" 요약 </a>
+                  <p class="date">2018-03-30</p>
+                </li>
+                <li>
+                  <a> 인증의 갱신 사이트 Open 안내 </a>
+                  <p class="date">2017-05-16</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="main-middle">
+        <div class="big-box-wrap">
+          <div class="bigbox-parent">
+            <div class="big-box first-bb">
+              <div class="box-head">
+                <h2>행사안내</h2>
+              </div>
+              <div class="big-box-cont">
+                <div class="bbc-title">
+                  <h1>대한초음파의학교육원(KAFE)</h1>
+                  <p>복부초음파 검사 입문 교육 : 강의 및 실습</p>
+                </div>
+                <div class="bbc-info">
+                  <ul>
+                    <li><span>일 시</span> 2018년 12월 9일(일)</li>
+                    <li>
+                      <span>장 소</span> 캐논케이타이 2층 대회의실(도시바
+                      교육장)
+                    </li>
+                  </ul>
+                </div>
+                <div class="detail-btn">
+                  <a>
+                    <p>자세히 보기</p>
+                    <img src="./source/icon/event-detail-icon.png" alt="icon" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bigbox-parent">
+            <div class="big-box second-bb">
+              <div class="box-head">
+                <h2>행사안내</h2>
+              </div>
+              <div class="big-box-cont">
+                <div class="bbc-title">
+                  <h1>대한초음파의학교육원(KAFE)</h1>
+                  <p>복부초음파 검사 입문 교육 : 강의 및 실습</p>
+                </div>
+                <div class="bbc-info">
+                  <ul>
+                    <li><span>일 시</span> 2018년 12월 9일(일)</li>
+                    <li>
+                      <span>장 소</span> 캐논케이타이 2층 대회의실(도시바
+                      교육장)
+                    </li>
+                  </ul>
+                </div>
+                <div class="detail-btn">
+                  <a>
+                    <p>자세히 보기</p>
+                    <img src="./source/icon/event-detail-icon.png" alt="icon" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bigbox-parent">
+            <div class="big-box third-bb">
+              <div class="box-head">
+                <h2>행사안내</h2>
+              </div>
+              <div class="big-box-cont">
+                <div class="bbc-title">
+                  <h1>대한초음파의학교육원(KAFE)</h1>
+                  <p>복부초음파 검사 입문 교육 : 강의 및 실습</p>
+                </div>
+                <div class="bbc-info">
+                  <ul>
+                    <li><span>일 시</span> 2018년 12월 9일(일)</li>
+                    <li>
+                      <span>장 소</span> 캐논케이타이 2층 대회의실(도시바
+                      교육장)
+                    </li>
+                  </ul>
+                </div>
+                <div class="detail-btn">
+                  <a>
+                    <p>자세히 보기</p>
+                    <img src="./source/icon/event-detail-icon.png" alt="icon" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-box-wrap">
+          <div class="main-box">
+            <div class="box-head">
+              <h2>증례토론</h2>
+              <a>
+                <img src="./source/icon/plus.png" alt="plus" />
+              </a>
+            </div>
+            <div class="discuss-wrap">
+              <img src="./source/discuss-img.png" alt="hematuria" />
+              <div class="discuss-cont">
+                <h3>F/9세, hematuria</h3>
+                <p>
+                  화면에 보이는 것은 다음 중 어떤 artifact일까요?<br />aliasing
+                  artifact/ flash artifact/ mirror artifact/ motion artifact/
+                  twinkle artifact
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="box-head">
+              <h2>학회지</h2>
+            </div>
+            <div class="thesis-wrap">
+              <img
+                src="./source/thesis-img.png"
+                alt="ultra sono graphy"
+                class="thesisImg"
+              />
+              <img
+                src="./source/thesis-img2.png"
+                alt="ultra sono graphy"
+                class="thesisImg2"
+              />
+              <div class="thesis-list">
+                <ul>
+                  <li>
+                    <a>
+                      <p>ULTRA SONOGRAPHY</p>
+                      <img src="./source/icon/horizon-arrow.png" alt="arrow" />
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <p>
+                        ONLINE MANUSCRIPT<br />
+                        SUNMISSON
+                      </p>
+                      <img src="./source/icon/horizon-arrow.png" alt="arrow" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="shortcutMenu-wrap">
+        <div class="shortcutMenu">
+          <a class="shortcut ultraWave">
+            <img src="./source/ultrasonic-wave.png" alt="초음파" />
+            <div class="shortcut-cont">
+              <span>일반인을 위한</span>
+              <p>초음파 진료 소개</p>
+            </div>
+          </a>
+          <a class="shortcut eduHp">
+            <img src="./source/edu-hp.png" alt="교육 홈페이지" />
+            <div class="shortcut-cont">
+              <span>대한초음파의학회</span>
+              <p>교육 홈페이지</p>
+            </div>
+          </a>
+        </div>
+        <div class="shortcutMenu">
+          <a class="shortcut uwCert">
+            <img src="./source/uw-certification.png" alt="초음파인증의제도" />
+            <div class="shortcut-cont">
+              <span>대한초음파의학회</span>
+              <p>초음파 인증의 제도</p>
+            </div>
+          </a>
+          <a class="shortcut ksum">
+            <img src="./source/people.png" alt="KSUM" />
+            <div class="shortcut-cont">
+              <span>
+                INTERNATIONAL <br />
+                MEMBERSHIP
+              </span>
+              <p>KSUM</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="banner-sec">
+      <div class="banner-wrap">
+        <div class="banner-cont">
+          <div>
+            <a class="banner">
+              <img src="./source/gurebet-banner.png" alt="guerbet" />
+            </a>
+          </div>
+          <div>
+            <a class="banner">
+              <img src="./source/dongkook-banner.png" alt="guerbet" />
+            </a>
+          </div>
+          <div>
+            <a class="banner">
+              <img src="./source/samsung-banner.png" alt="guerbet" />
+            </a>
+          </div>
+          <div>
+            <a class="banner">
+              <img src="./source/dongkook-banner.png" alt="guerbet" />
+            </a>
+          </div>
+          <div>
+            <a class="banner">
+              <img src="./source/samsung-banner.png" alt="guerbet" />
+            </a>
+          </div>
+          <div>
+            <a class="banner">
+              <img src="./source/gurebet-banner.png" alt="guerbet" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-wrap">
+        <div class="footer-left">
+          <ul class="footer-menu">
+            <li>
+              <a> 개인정보 취급 방침 </a>
+            </li>
+            <li>
+              <a> 이메일 무단 수집 거부 </a>
+            </li>
+          </ul>
+          <div class="company">
+            <div class="co-sub">
+              <div>
+                <p class="address">
+                  서울시 마포구 마포대로 53 마포트라팰리스 A동 304호
+                </p>
+              </div>
+              <div class="co">
+                <p>사업자등록번호:229-82-00887</p>
+                <p>대표자:이원재</p>
+              </div>
+            </div>
+            <div class="co-sub">
+              <div class="co">
+                <p>Tel. +82-2-763-5627</p>
+                <p>Fax. +82-2-763-6909</p>
+              </div>
+              <div>
+                <p>Email:office@ultrasound.or.kr</p>
+              </div>
+            </div>
+
+            <div class="co">
+              <p>Copyright&copy;by Korean Society of Ultrasound in Medicine</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-right">
+          <ul class="family-list">
+            <li><a>family1</a></li>
+            <li><a>family2</a></li>
+            <li><a>family3</a></li>
+          </ul>
+          <div class="family">
+            <div class="family-site">
+              <a>
+                <span>관련사이트</span>
+                <img src="./source/icon/family-arrow.png" alt="arrow" />
+              </a>
+            </div>
+          </div>
+          <img
+            src="./source/footer-banner.png"
+            alt="RapidSSL"
+            class="rapid-tag"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
